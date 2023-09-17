@@ -1,0 +1,15 @@
+.text-box > :first-child {
+    color: pink;
+}
+#greycol {
+    color: grey;
+}
+.yellow {
+    color: yellow;
+}
+div + p {
+    color: red;
+}
+div ~ p {
+    color: green;
+}
