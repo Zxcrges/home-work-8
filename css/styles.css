@@ -13,3 +13,6 @@ div + p {
 div ~ p {
     color: green;
 }
+div > :first-child {
+    color: red;
+}
