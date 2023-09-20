@@ -8,8 +8,8 @@
 .Monday ul {
     color: #DC3939;
 }
-.Monday ul :hover {
-    background-color: #CFCFCF;
+.Monday ul :first-child {
+    background-color: #D6D6D6;
 }
 .Tuesday p {
     color: #E95E2F;
@@ -17,8 +17,8 @@
 .Tuesday ul {
     color: #DC6239;
 }
-.Tuesday ul :active {
-    background-color: #CFCFCF;
+.Tuesday ul :nth-child(odd) {
+    background-color: #D6D6D6;
 }
 .Wednesday p {
     color: #E9BB2F;
@@ -26,8 +26,8 @@
 .Wednesday ul {
     color: #CCA429;
 }
-.Wednesday ul :visited {
-    background-color: #CFCFCF;
+.Wednesday ul :nth-child(even) {
+    background-color: #D6D6D6;
 }
 .Thursday p {
     color: #BAE92F;
@@ -35,9 +35,15 @@
 .Thursday ul {
     color: #A3CC29;
 }
+.Thursday ul :nth-child(2n) {
+    background-color: #D6D6D6;
+}
 .Friday p {
     color: #5DE92F;
 }
 .Friday ul {
     color: #51CC29;
+}
+.Friday ul :nth-child(-n+2) {
+    background-color: #D6D6D6;
 }
