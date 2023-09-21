@@ -1,18 +1,108 @@
 .text-box > :first-child {
-    color: pink;
+  color: pink;
 }
+
 #greycol {
-    color: grey;
+  color: grey;
 }
+
 .yellow {
-    color: yellow;
+  color: yellow;
 }
+
 div + p {
-    color: red;
+  color: red;
 }
+
 div ~ p {
-    color: green;
+  color: green;
 }
+
 div > :first-child {
-    color: red;
+  color: red;
+}
+
+.week {
+  background-color: #ececec;
+  font-size: 17px;
+}
+
+.monday p {
+  color: #e92f2f;
+}
+
+.monday ul {
+  color: #dc3939;
+}
+
+.monday ul :first-child {
+  background-color: #d6d6d6;
+}
+
+.monday ul :active {
+  background-color: #aaaaaa;
+}
+
+.tuesday p {
+  color: #e95e2f;
+}
+
+.tuesday ul {
+  color: #dc6239;
+}
+
+.tuesday ul :nth-child(odd) {
+  background-color: #d6d6d6;
+}
+
+.tuesday ul :visited {
+  background-color: #aaaaaa;
+}
+
+.wednesday p {
+  color: #e9bb2f;
+}
+
+.wednesday ul {
+  color: #cca429;
+}
+
+.wednesday ul :nth-child(even) {
+  background-color: #d6d6d6;
+}
+
+.wednesday ul :hover {
+  background-color: #aaaaaa;
+}
+
+.thursday p {
+  color: #bae92f;
+}
+
+.thursday ul {
+  color: #a3cc29;
+}
+
+.thursday ul :nth-child(2n) {
+  background-color: #d6d6d6;
+}
+
+.thursday ul :focus {
+  background-color: #aaaaaa;
+}
+
+.friday p {
+  color: #5de92f;
+}
+
+.friday ul {
+  color: #51cc29;
+}
+
+.friday ul :nth-child(-n + 2) {
+  background-color: #d6d6d6;
+}
+
+.friday ul :checked {
+  background-color: #aaaaaa;
 }
